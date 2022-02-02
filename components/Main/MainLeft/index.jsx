@@ -2,8 +2,8 @@ import React from "react";
 import Button from "../../../Layout/Button";
 const MainLeft = () => {
   return (
-    <article className=" w-[80%] xl:w-[50%] min-w-[200px] xl:pl-80 py-16 flex flex-col">
-      <div className="flex flex-col w-[100%] text-center sm:text-left items-center sm:items-start self-center">
+    <article className=" w-[80%] xl:w-[50%] min-w-[200px] xl:pl-[15%] py-16 flex flex-col">
+      <div className="flex flex-col w-[80%] sm:w-[100%] text-center sm:text-left items-center sm:items-start self-center">
         <h2 className="break-words text-white font-bold text-[32px] sm:text-[48px]">
           Unite a la comunidad de aprendizaje online en vivo más grande de
           Latinoamérica
