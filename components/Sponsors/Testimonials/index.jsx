@@ -32,7 +32,7 @@ const Testimonials = () => {
     },
   ];
   return (
-    <section className="grid grid-cols-4 pt-12 gap-10">
+    <section className="grid grid-cols-4 pt-12 gap-10 mb-6 ">
       {TestimonialsList.map((data) => (
         <TestimonialItem key={data.name} {...data} />
       ))}

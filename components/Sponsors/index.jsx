@@ -3,7 +3,7 @@ import Testimonials from "./Testimonials";
 import Perks from "./Perks";
 const Sponsors = () => {
   return (
-    <article className="md:px-[10%] bg-dark ">
+    <article className="md:px-[8%] bg-dark ">
       <Testimonials />
       <Perks />
     </article>

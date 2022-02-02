@@ -1,37 +1,34 @@
 import React from "react";
-import Image from "next/image";
 import RocketIcon from "../../../assets/images/Quality.svg";
 import ListingIcon from "../../../assets/images/Education.svg";
 import CoursesIcon from "../../../assets/images/Courses.svg";
+import PerkItem from "./PerkItem";
 const Perks = () => {
+  const perksData = [
+    {
+      icon: CoursesIcon,
+      title: "+90% de cursos terminados",
+      description:
+        "Todos online en vivo, vs. 3 a 6% en plataformas de cursos pregrabados.",
+    },
+    {
+      icon: ListingIcon,
+      title: "Educación a precios accesibles",
+      description:
+        "Diseñamos la CoderBeca para que la educación sea accesible para todas las personas.",
+    },
+    {
+      icon: RocketIcon,
+      title: "Contenidos de alta calidad",
+      description:
+        "Desarrollamos nuestros cursos y carreras con las mejores empresas y profesionales del mercado.",
+    },
+  ];
   return (
-    <section className="bg-primary h-40 w-100% grid grid-cols-3 ">
-      <div className="col-span-1 flex flex-col justify-start ">
-        <div className="relative h-6 w-6">
-          <Image src={CoursesIcon} alt="Courses completed" />
-        </div>
-        <h3>Title</h3>
-        <span>lorem ipsum jkksk sjdkajskd lskdlaksdj dkasdjkasldsa </span>
-        <span>Fuente: Andreesen test </span>
-      </div>
-
-      <div className="col-span-1 flex flex-col justify-start ">
-        <div className="relative h-6 w-6">
-          <Image src={ListingIcon} alt="Courses completed" />
-        </div>
-        <h3>Title</h3>
-        <span>lorem ipsum jkksk sjdkajskd lskdlaksdj dkasdjkasldsa </span>
-        <span>Fuente: Andreesen test </span>
-      </div>
-
-      <div className="col-span-1 flex flex-col justify-start ">
-        <div className="relative h-6 w-6">
-          <Image src={RocketIcon} alt="Courses completed" />
-        </div>
-        <h3>Title</h3>
-        <span>lorem ipsum jkksk sjdkajskd lskdlaksdj dkasdjkasldsa </span>
-        <span>Fuente: Andreesen test </span>
-      </div>
+    <section className="bg-primary  w-100% grid grid-cols-3  px-[7%] gap-14 py-[4%] ">
+      {perksData.map((data) => (
+        <PerkItem key={data.title} {...data} />
+      ))}
     </section>
   );
 };
