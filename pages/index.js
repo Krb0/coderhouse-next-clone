@@ -1,8 +1,7 @@
 import Head from "next/head";
-import Image from "next/image";
 import Header from "../components/Header";
 import Main from "../components/Main";
-
+import Testimonials from "../components/Sponsors";
 export default function Home() {
   return (
     <div>
@@ -17,6 +16,7 @@ export default function Home() {
       </Head>
       <Header />
       <Main />
+      <Testimonials />
     </div>
   );
 }
