@@ -1,5 +1,5 @@
 import React from "react";
-import Button from "../../../Layout/Button";
+
 const MainLeft = () => {
   return (
     <article className=" w-[80%] xl:w-[50%] min-w-[200px] xl:pl-[15%] py-16 flex flex-col">
@@ -17,11 +17,9 @@ const MainLeft = () => {
       </div>
       <div className="flex w-100 flex-col sm:items-start">
         <div className="flex flex-col items-center ">
-          <Button
-            width="190px"
-            title="Ver todos los cursos"
-            extra={"scale-75 sm:scale-100 text-[14px] "}
-          />
+          <button className="bg-primary font-black select-none text-black p-4 w-[190px] scale-75 sm:scale-100 text-[14px] ">
+            Ver todos los cursos
+          </button>
           <span className="block text-lightgray-100 text-xs italic ">
             Calidad 100% asegurada
           </span>
