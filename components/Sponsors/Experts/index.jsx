@@ -11,13 +11,13 @@ const Experts = () => {
   }, []);
 
   return (
-    <div className="sm:px-64 mt-20 pb-14">
+    <div className="sm:px-64 mt-20 pb-20">
       <motion.div
-        className="h-80 overflow-hidden w-full min-w-[360px] "
+        className="overflow-hidden w-full min-w-[360px] "
         ref={carousel}
       >
         <motion.div
-          className="bg-dark h-full flex gap-[50px]  "
+          className="bg-dark h-full flex gap-[50px] "
           drag="x"
           dragConstraints={{ right: 0, left: -width }}
         >

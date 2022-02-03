@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 const Card = ({ name, img, country, position, company }) => {
   return (
-    <motion.div className="h-full min-w-[310px] flex flex-col items-center card-gradient  ">
+    <motion.div className="h-full min-w-[310px] flex flex-col items-center card-gradient rounded-lg py-8 ">
       <div className="relative  h-32 w-32 mt-4">
         <Image
           alt="expert"
