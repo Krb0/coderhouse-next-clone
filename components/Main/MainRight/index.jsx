@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import CoderImg from "../../../assets/images/Coder.png";
+import CoderImg from "../../../assets/images/Main/Coder.png";
 const MainRight = () => {
   return (
     <article className="w-[80%] xl:w-[35%] min-w-[200px] mx-auto">

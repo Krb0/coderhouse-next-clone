@@ -2,6 +2,7 @@ import Head from "next/head";
 import Header from "../components/Header";
 import Main from "../components/Main";
 import Sponsors from "../components/Sponsors";
+import Education from "../components/Education";
 export default function Home() {
   return (
     <div>
@@ -17,6 +18,7 @@ export default function Home() {
       <Header />
       <Main />
       <Sponsors />
+      <Education />
     </div>
   );
 }

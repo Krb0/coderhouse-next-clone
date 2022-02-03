@@ -1,7 +1,7 @@
 import React from "react";
-import RocketIcon from "../../../assets/images/Quality.svg";
-import ListingIcon from "../../../assets/images/Education.svg";
-import CoursesIcon from "../../../assets/images/Courses.svg";
+import RocketIcon from "../../../assets/images/Sponsors/Perks/Quality.svg";
+import ListingIcon from "../../../assets/images/Sponsors/Perks/Education.svg";
+import CoursesIcon from "../../../assets/images/Sponsors/Perks/Courses.svg";
 import PerkItem from "./PerkItem";
 const Perks = () => {
   const perksData = [

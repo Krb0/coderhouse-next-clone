@@ -1,8 +1,8 @@
 import React from "react";
-import InfobaeIcon from "../../../assets/images/Infobae.svg";
-import ClarinIcon from "../../../assets/images/Clarin.svg";
-import ForbesIcon from "../../../assets/images/Forbes.svg";
-import NacionIcon from "../../../assets/images/Nacion.svg";
+import InfobaeIcon from "../../../assets/images/Sponsors/Testimonials/Infobae.svg";
+import ClarinIcon from "../../../assets/images/Sponsors/Testimonials/Clarin.svg";
+import ForbesIcon from "../../../assets/images/Sponsors/Testimonials/Forbes.svg";
+import NacionIcon from "../../../assets/images/Sponsors/Testimonials/Nacion.svg";
 import TestimonialItem from "./TestimonialItem";
 
 const Testimonials = () => {
