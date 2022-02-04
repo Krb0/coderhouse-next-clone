@@ -11,7 +11,7 @@ import Rappi from "../../../assets/images/Sponsors/Experts/Companies/Rappi.svg";
 import Uala from "../../../assets/images/Sponsors/Experts/Companies/Uala.svg";
 import Arg from "../../../assets/images/Sponsors/Experts/Countries/ar.svg";
 import Mx from "../../../assets/images/Sponsors/Experts/Countries/mx.svg";
-import Co from "../../../assets/images/Sponsors/Experts/Countries/Co.svg";
+import Co from "../../../assets/images/Sponsors/Experts/Countries/co.svg";
 const data = [
   {
     name: "Bill Gates",
