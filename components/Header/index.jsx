@@ -1,16 +1,18 @@
-import React from "react";
+import React, { useContext } from "react";
 
 import Logo from "./HeaderLogo";
 import Navigation from "./Navigation";
 import HeaderButton from "./HeaderButton";
 import HeaderMenu from "./HeaderMenu";
+import { SectionContext } from "../../Context/SectionContext";
 const Header = () => {
+  const [ref, inView] = useContext(SectionContext);
   return (
-    <header className="sticky top-0 z-50 grid grid-cols-4 bg-dark py-8 items-center px-8">
-      <Logo />
-      <Navigation />
+    <header className={inView ? "header-dark" : "header"}>
+      <Logo inView={inView} />
+      <Navigation inView={inView} />
       <HeaderButton />
-      <HeaderMenu />
+      <HeaderMenu inView={inView} />
     </header>
   );
 };

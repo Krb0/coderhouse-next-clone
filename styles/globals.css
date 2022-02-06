@@ -23,3 +23,18 @@
   cursor: pointer;
   user-select: none;
 }
+
+@layer components {
+  .navigation {
+    @apply hidden xl:flex xl:col-span-2 h-9 relative  font-normal text-white space-x-6 items-center justify-center text-[18px]  nav-list;
+  }
+  .navigation-dark {
+    @apply navigation text-[#242424];
+  }
+  .header {
+    @apply sticky top-0 z-50 grid grid-cols-4  py-8 items-center px-8 bg-dark;
+  }
+  .header-dark {
+    @apply header shadow-lg bg-white;
+  }
+}

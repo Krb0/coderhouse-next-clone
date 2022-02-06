@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Check from "../../../../assets/images/Education/check-gray.svg";
-
+import { v4 as uuid } from "uuid";
 const Section = ({ title, description, checks, id }) => {
   return (
     <div className="flex flex-col">
@@ -20,7 +20,7 @@ const Section = ({ title, description, checks, id }) => {
           <div className="flex flex-col mt-4 gap-8 text-[18px] ">
             {checks.map((item) => {
               return (
-                <span className="flex items-center gap-1" key={id}>
+                <span className="flex items-center gap-1" key={uuid()}>
                   <div className=" relative h-4 w-4">
                     <Image src={Check} layout="fill" alt="check icon" />
                   </div>

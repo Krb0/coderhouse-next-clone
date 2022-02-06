@@ -2,9 +2,9 @@ import React from "react";
 import UserIcon from "../../../assets/images/Header/User.svg";
 import Image from "next/image";
 import ChevronDown from "@heroicons/react/outline/ChevronDownIcon";
-const Navigation = () => {
+const Navigation = ({ inView }) => {
   return (
-    <nav className="hidden col-span-0 xl:flex xl:col-span-2 h-9 relative  font-normal text-white space-x-6 items-center justify-center text-[18px]  nav-list ">
+    <nav className={inView ? "navigation-dark" : "navigation"}>
       <div className="flex space-x-2">
         <span>Cursos y Carreras</span>
         <ChevronDown className="w-5" />

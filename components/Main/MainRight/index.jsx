@@ -8,6 +8,7 @@ const MainRight = () => {
         <Image
           className="  bg-transparent"
           src={CoderImg}
+          priority={true}
           layout="responsive"
           alt="Coder banner"
         />

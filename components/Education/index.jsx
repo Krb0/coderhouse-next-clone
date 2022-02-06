@@ -1,11 +1,13 @@
-import React from "react";
+import React, { useContext } from "react";
 import CoderBeca from "./CoderBeca";
-import Test from "./Test";
+import VideoColumn from "./VideoColumn";
+import { SectionContext } from "../../Context/SectionContext";
 const Education = () => {
+  const [ref] = useContext(SectionContext);
   return (
-    <div>
+    <div ref={ref}>
       <CoderBeca />
-      <Test />
+      <VideoColumn />
     </div>
   );
 };
