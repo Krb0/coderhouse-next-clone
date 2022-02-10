@@ -11,9 +11,9 @@ const Experts = () => {
   }, []);
 
   return (
-    <div className="sm:px-64 mt-20 pb-20">
+    <div className="sm:px-[5%] mt-20 pb-20">
       <motion.div
-        className="overflow-hidden w-full min-w-[360px] "
+        className="overflow-hidden w-[100%] sm:w-[90%] "
         ref={carousel}
       >
         <motion.div

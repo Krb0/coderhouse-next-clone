@@ -8,7 +8,7 @@ import { SectionContext } from "../../Context/SectionContext";
 const Header = () => {
   const [ref, inView] = useContext(SectionContext);
   return (
-    <header className={inView ? "header-dark" : "header"}>
+    <header className={`${inView ? "header-dark" : "header"}`}>
       <Logo inView={inView} />
       <Navigation inView={inView} />
       <HeaderButton />

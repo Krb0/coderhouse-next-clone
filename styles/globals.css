@@ -37,4 +37,10 @@
   .header-dark {
     @apply header shadow-lg bg-white;
   }
+  .section-row {
+    @apply flex w-[92%] mx-auto justify-between items-center  mt-24 flex-col sm:flex-row;
+  }
+  .section-row-reverse {
+    @apply section-row sm:flex-row-reverse;
+  }
 }

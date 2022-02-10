@@ -1,4 +1,4 @@
-import { createContext, useState, useEffect } from "react";
+import { createContext } from "react";
 import { useInView } from "react-intersection-observer";
 export const SectionContext = createContext([]);
 
@@ -12,3 +12,4 @@ export const SectionProvider = (props) => {
     </SectionContext.Provider>
   );
 };
+
