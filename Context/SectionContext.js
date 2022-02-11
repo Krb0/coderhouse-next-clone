@@ -4,7 +4,7 @@ export const SectionContext = createContext([]);
 
 export const SectionProvider = (props) => {
   const { ref, inView } = useInView({
-    threshold: 0.2,
+    threshold: 0.1,
   });
   return (
     <SectionContext.Provider value={[ref, inView]}>
@@ -12,4 +12,3 @@ export const SectionProvider = (props) => {
     </SectionContext.Provider>
   );
 };
-

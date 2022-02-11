@@ -1,5 +1,5 @@
 import React from "react";
-import CheckIcon from "../../../assets/images/Education/Check.svg";
+import CheckIcon from "../../assets/images/Education/Check.svg";
 import Image from "next/image";
 const CoderBeca = () => {
   return (

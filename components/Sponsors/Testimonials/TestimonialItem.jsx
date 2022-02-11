@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
-import OpeningQuotes from "../../../../assets/images/Sponsors/Testimonials/opening-quotes.svg";
-import ClosingQuotes from "../../../../assets/images/Sponsors/Testimonials/closing-quotes.svg";
+import OpeningQuotes from "../../../assets/images/Sponsors/Testimonials/opening-quotes.svg";
+import ClosingQuotes from "../../../assets/images/Sponsors/Testimonials/closing-quotes.svg";
 const TestimonialItem = ({ name, icon, message }) => {
   return (
     <div className="col-span-4 sm:col-span-2 xl:col-span-1 flex flex-col">

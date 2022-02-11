@@ -1,5 +1,5 @@
 import React from "react";
-import UserIcon from "../../../assets/images/Header/User.svg";
+import UserIcon from "../../assets/images/Header/User.svg";
 import Image from "next/image";
 import ChevronDown from "@heroicons/react/outline/ChevronDownIcon";
 const Navigation = ({ inView }) => {
