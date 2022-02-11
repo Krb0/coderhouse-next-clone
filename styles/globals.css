@@ -43,4 +43,7 @@
   .section-row-reverse {
     @apply section-row sm:flex-row-reverse;
   }
+  .footer-list li {
+    @apply text-gray-400 text-sm cursor-pointer hover:underline;
+  }
 }

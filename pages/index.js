@@ -3,6 +3,7 @@ import Header from "../components/Header";
 import Main from "../components/Main";
 import Sponsors from "../components/Sponsors";
 import Education from "../components/Education";
+import Footer from "../components/Footer";
 import { SectionProvider } from "../Context/SectionContext";
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
         <Main />
         <Sponsors />
         <Education />
+        <Footer />
       </div>
     </SectionProvider>
   );
